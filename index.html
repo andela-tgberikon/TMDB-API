@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TMDb API CALL</title>
+    <link rel="stylesheet" type="text/css" href="css/cssReset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link type="text/css" rel="stylesheet" href="css/simplePagination.css"/>
+  </head>
+  <header id="header">
+      <ul id="navLists">
+          <li>About</li>
+          <li>Locate Cinema</li>
+          <li>More Movies</li>
+      </ul>
+  </header>
+  <body>
+    <div id="scam">
+        <input type="text" id="movieID" class="searchMovies"placeholder="Type a movie to search" />
+        <input type="button" value="Get Movies" id="searchMoviesButton" class="button" />
+    </div>
+    <div class="container">
+        <div id="thinLine"></div>
+        <div id="compact-pagination" class="compact-theme simple-pagination">
+            <ul></ul>
+        </div>
+        <ul id="currentMovies"></ul>
+    </div>
+
+    <div class="reviews" id="geoLocation">
+    <a href="#trailers" id="viewTrailer2" class="trailerNav">View The Trailer</a>
+        <input id='backButton' type='button' value='Back To Search'/>
+        <div class="reviews" id="movieDescription"></div>
+        <img class="reviews" id="image" src="">
+        <div class="reviews">
+          <ul class="reviews" id="reviews"></ul>
+        </div>
+        <iframe id="trailers" src=""></iframe>
+        <a href="#trailers" id="viewTrailer" class="trailerNav">View The Trailer</a>
+        <a href="#geoLocation" id="backToReview" class="trailerNav">Go Back To Review</a>
+    </div>
+  </body>
+  <script type="text/javascript" src="script/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="script/jquery-ui.js"></script>
+  <script type="text/javascript" src="script/jquery.simplePagination.js"></script>
+  <script type="text/javascript" src="script/app.js"></script>
+</html>
