@@ -9,10 +9,17 @@ a{
 
 p{
     position:relative;
+<<<<<<< HEAD
     font-size:1.1em;
     width:10em;
     color:white;
     margin-bottom:1%;
+=======
+    font-size:1.3em;
+    width:10em;
+    color:white;
+    margin-bottom:4%;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
 }
 
 .trailerNav{
@@ -24,6 +31,7 @@ p{
     border: 0.2em solid skyblue;
 }
 #viewTrailer{
+<<<<<<< HEAD
     margin-left: 22.5%;
     margin-bottom: 3%;
 }
@@ -33,6 +41,28 @@ p{
 }
 
 
+=======
+    margin-left: 45%;
+    margin-bottom: 10%;
+}
+#viewTrailer2{
+    margin-left: 10%;
+}
+#reviews li p {
+    width:80%;
+    height:10em;
+    overflow: scroll;
+    margin-left: 10%;
+}
+#reviews li h1{
+    font-size: 2.5em;
+    margin-left: 150%;
+    color: white;
+    width: 100%;
+    background-color: orange;
+    border: 0.05em solid black;
+}
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
 #iFrame{
     margin-top:2.5%;
     float:right;
@@ -53,7 +83,11 @@ p{
     width:72%;
     height:0.1em;
     margin-left:15%;
+<<<<<<< HEAD
     background-color:navy;
+=======
+    background-color:white;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
 }
 
 #trailers{
@@ -68,11 +102,16 @@ p{
 }
 
 #currentMovies{
+<<<<<<< HEAD
     margin-top:1.5%;
+=======
+    margin-top:1%;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
     width:70%;
     height:25em;
     margin-left:15%;
     margin-bottom: 8%;
+<<<<<<< HEAD
     -webkit-overflow-y:overlay;
     overflow:scroll;
     background: black;
@@ -80,6 +119,11 @@ p{
     overflow-y:overlay;
     border-radius:none;
     box-shadow: 0 0 0.3em 0.2em black;
+=======
+    overflow-y:overlay;
+    border-radius:none;
+    border:0.09em solid black;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
     padding:1em 0 1em 1em;
 }
 
@@ -88,7 +132,11 @@ p{
   width:5px;
 }
 ::-webkit-scrollbar-thumb{
+<<<<<<< HEAD
   background-color:rgba(255,0,0,0.8);
+=======
+  background-color:rgba(0,0,0,0.8);
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
 } 
 
 
@@ -97,6 +145,7 @@ p{
     width:100%;
     height:30em;
 }
+<<<<<<< HEAD
 #reviews{
     float: right;
     position: relative;
@@ -114,6 +163,9 @@ p{
     opacity: 0.9;
     width:40%;
 }
+=======
+
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
 #scam{
     width:100%;
     height:20%;
@@ -121,13 +173,18 @@ p{
 }
 
 #compact-pagination ul{
+<<<<<<< HEAD
     margin-left:35% !important;
+=======
+    margin-left:30% !important;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
 }
 
 #movieID{
     width:50%;
     height: 1.5em;
     position:relative;
+<<<<<<< HEAD
     outline:1;
     border:none;
     box-shadow: 0 0 0.1em 0.05em blue;
@@ -142,6 +199,13 @@ p{
 }
 input[type='text']{
     font-size: 1em;
+=======
+   margin-left:25%;
+   margin-top:7%;
+}
+input[type='text']{
+    font-size: 2em;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
     text-align: center;
 }
 .container{
@@ -153,13 +217,18 @@ input[type='text']{
     margin-left:80%;
     width: 8em;
     height: 3em;
+<<<<<<< HEAD
     background-color: #D1A700 !important;
+=======
+    background-color: green;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
     border: none;
     border-radius: 0.1em;
     box-shadow: 0.2em 0.2em 0.1em black;
 }
 
 h2{
+<<<<<<< HEAD
     font-size: 1.8em;
     color:white;
     text-align: justify;
@@ -170,14 +239,34 @@ h2{
     width: 100%;
     margin-bottom: 2%;
     margin-left: 35%;
+=======
+    font-size: 4em;
+    color:white;
+    width: 100%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
     text-transform: uppercase;
 }
 
 #image{
+<<<<<<< HEAD
     margin-left:3%;
     width:50%;
     float:left;
     margin-bottom: 1%;
+=======
+    margin-left:10%;
+    width:80%;
+}
+
+.button{
+    display:inline;
+    border:none;
+    width:10em;
+    height:3em;
+    border-radius:2px;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
 }
 
 #error{
@@ -191,10 +280,16 @@ h2{
     margin-top:0.5%;
     height:5em;
     color:white;
+<<<<<<< HEAD
     position:relative;
     background-color:black;
     opacity:0.4;
     box-shadow: 0.2em 0.2em 0.1em black;
+=======
+    position:fixed;
+    background-color:black;
+    opacity:0.4;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
 }
 
 #header ul li{
@@ -203,12 +298,17 @@ h2{
 }
 
 body{
+<<<<<<< HEAD
     background: url("../img/shutter-reel.jpg") no-repeat center center fixed;
+=======
+    background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-7.jpg") no-repeat center center fixed;
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+<<<<<<< HEAD
 }
 
 
@@ -269,4 +369,6 @@ body{
   background-image: -moz-linear-gradient(top, #7691cf 0%, #89A0D6 100%);
   background-image: -o-linear-gradient(top, #7691cf 0%, #89A0D6 100%);
   background-image: -ms-linear-gradient(top, #7691cf 0%, #89A0D6 100%);
+=======
+>>>>>>> 3b120198ba726e458958383fea879c10cb5fecd4
 }
