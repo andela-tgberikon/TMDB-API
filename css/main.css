@@ -54,7 +54,10 @@ p{
     height:0.1em;
     margin-left:15%;
     background-color:navy;
+<<<<<<< HEAD
     box-shadow: 0.08em 0.08em 0.06em blue;
+=======
+>>>>>>> 4b829b5343fe51cb79952d10f7225cc9098f8210
 }
 
 #trailers{
@@ -89,7 +92,11 @@ p{
   width:5px;
 }
 ::-webkit-scrollbar-thumb{
+<<<<<<< HEAD
   background-color:rgba(128,127,0,0.8);
+=======
+  background-color:rgba(255,0,0,0.8);
+>>>>>>> 4b829b5343fe51cb79952d10f7225cc9098f8210
 } 
 
 
