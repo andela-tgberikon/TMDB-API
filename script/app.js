@@ -182,8 +182,5 @@ TMDB = {
             $('.reviews').hide();
         }
 }
-<<<<<<< HEAD
 TMDB.start();
-=======
-TMDB.start();
->>>>>>> e98f4df6efda71c5bdf34a211ae0450b18c8edb5
+
