@@ -52,11 +52,10 @@ p{
 #thinLine{
     width:72%;
     height:0.1em;
-    margin-left:15%;
+    margin-left:14.5%;
     background-color:navy;
-    box-shadow: 0.08em 0.08em 0.06em blue;
+    box-shadow: 0 0 0.2em 0.1em #ffa853; 
 }
-
 #trailers{
     width: 50%;
     height: 80%;
@@ -72,15 +71,15 @@ p{
     margin-top:1.5%;
     width:70%;
     height:25em;
-    margin-left:15%;
-    margin-bottom: 8%;
+    margin-left:14.5%;
+    margin-bottom: 5%;
     -webkit-overflow-y:overlay;
     overflow:scroll;
     background: black;
     opacity: 0.9;
     overflow-y:overlay;
-    border-radius:none;
-    box-shadow: 0 0 0.3em 0.2em black;
+    border-radius:0.2em;
+    box-shadow: 0 0 0.3em 0.2em white;
     padding:1em 0 1em 1em;
 }
 
@@ -89,7 +88,7 @@ p{
   width:5px;
 }
 ::-webkit-scrollbar-thumb{
-  background-color:rgba(128,127,0,0.8);
+  background-color:rgba(128,64,0,0.8);
 } 
 
 
@@ -117,7 +116,7 @@ p{
 }
 #scam{
     width:100%;
-    height:20%;
+    height:10%;
     position:relative;
 }
 
@@ -135,8 +134,8 @@ p{
     /*border-radius: 1%;*/
     
     background:transparent url('../img/input-text-8.png')repeat-x;
-    margin-left:25%;
-    margin-top:7.5%;
+    margin-left:21%;
+    margin-top:3%;
 }
 #movieID:focus{
     box-shadow: 0 0 0.3em 0.2em #ffa853; 
@@ -146,7 +145,7 @@ input[type='text']{
     text-align: center;
 }
 .container{
-    margin-top:5%;
+    margin-top:3%;
     position:auto;
 }
 
@@ -190,11 +189,12 @@ h2{
     width:99%;
     margin-left:0.5%;
     margin-top:0.5%;
-    height:5em;
+    height:3em;
     color:white;
     position:relative;
     background-color:black;
     opacity:0.4;
+    display: none;
     box-shadow: 0.2em 0.2em 0.1em black;
 }
 
@@ -204,7 +204,7 @@ h2{
 }
 
 body{
-    background: url("../img/shutter-reel.jpg") no-repeat center center fixed;
+    background: url("../img/background-high-definition.jpg") no-repeat center center fixed;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -216,7 +216,7 @@ body{
 /*********************************************************************/
 
 #searchMoviesButton, #backButton, #viewTrailer2, #viewTrailer, #backToReview{
-    width:10em;
+    max-width:10em;
     height:3em;
     border-radius:0.2em;
     display: inline-block;
