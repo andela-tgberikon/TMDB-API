@@ -56,7 +56,9 @@ p{
     background-color:navy;
     box-shadow: 0 0 0.2em 0.1em #ffa853; 
 }
-
+iframe{
+	
+}
 #trailers{
     width: 50%;
     height: 80%;
