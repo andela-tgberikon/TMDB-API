@@ -175,6 +175,7 @@ TMDB = {
             	}
             });
             $('#currentMovies').show();
+            $('.reviews').hide();
         }
 }
 TMDB.start();
