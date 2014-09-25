@@ -106,15 +106,19 @@ TMDB = {
 		        var filmTitle = $(this).siblings('.filmTitle').text();
 		        TMDB.filmId = $(this).siblings('.filmId').text();
 		        $('#image').attr('src', 'http://image.tmdb.org/t/p/w780/'+backdrop);
-		        $('#movieDescription').html('<li><h2>'+filmTitle+'</h2></li>');
+		        $('#movieDescription').html('<h2>'+filmTitle+'</h2>');
                 $('#currentMovies').hide();
+                
                 $('#geoLocation').show();
                 $('#movieDescription').show();
                 $('#image').show();
                 $('#backButton').show();
                 $('#viewTrailer2').show();
                 $('#backToReview').hide();
+                $('.reviews').show();
+                $('#reviews').empty();
                 TMDB.getMovieTrailer();
+                TMDB.getMovieReviews();
 		    });
 	    },
 
@@ -122,7 +126,7 @@ TMDB = {
     getMovieTrailer:function(){
             $.getJSON(TMDB.baseMovieTrailer + TMDB.filmId +'/trailers', TMDB.params, function(trailers){
                     TMDB.loadMovieTrailer(trailers);
-                    TMDB.getMovieReviews();
+                    
                 });
     },
 

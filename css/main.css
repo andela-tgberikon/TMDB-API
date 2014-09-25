@@ -56,22 +56,7 @@ p{
     background-color:navy;
     box-shadow: 0 0 0.2em 0.1em #ffa853; 
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-iframe{
-	
-}
-=======
 
->>>>>>> Cleaned up css some more, removed the header, changed the background to high def, removed the scroll from the page, and made adjustment to hide review on next page click
-=======
-
-=======
-iframe{
-	
-}
->>>>>>> master
->>>>>>> cfb0c7a8acf0d7b26c5c5aacd4773d606e99b098
 #trailers{
     width: 50%;
     height: 80%;
@@ -118,6 +103,7 @@ iframe{
     position: relative;
     margin-right: 3%;
 }
+
 #reviews li p{
     width:80%;
     height:10em;
@@ -178,11 +164,11 @@ input[type='text']{
 h2{
     font-size: 1.8em;
     color:white;
-    text-align: justify;
+    text-align: left;
     padding-top: 1%;
     padding-bottom:-1%;
     height: 1.5em;
-    background: black;
+    /*background: black;*/
     width: 100%;
     margin-bottom: 2%;
     margin-left: 35%;
@@ -230,9 +216,14 @@ body{
 
 
 /*********************************************************************/
-
+#searchMoviesButton{
+     max-width:10em;
+}
+#viewTrailer2, #viewTrailer, #backButton, #backToReview{
+    width: 10em;
+}
 #searchMoviesButton, #backButton, #viewTrailer2, #viewTrailer, #backToReview{
-    max-width:10em;
+   
     height:3em;
     border-radius:0.2em;
     display: inline-block;
