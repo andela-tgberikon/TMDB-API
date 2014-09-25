@@ -215,6 +215,13 @@ body{
 
 /*********************************************************************/
 
+#searchMoviesButton{
+     max-width:10em;
+}
+#viewTrailer2, #viewTrailer, #backButton, #backToReview{
+    width: 10em;
+}
+
 #searchMoviesButton, #backButton, #viewTrailer2, #viewTrailer, #backToReview{
     max-width:10em;
     height:3em;
