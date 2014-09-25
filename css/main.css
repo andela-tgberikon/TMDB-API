@@ -56,6 +56,7 @@ p{
     background-color:navy;
     box-shadow: 0 0 0.2em 0.1em #ffa853; 
 }
+
 #trailers{
     width: 50%;
     height: 80%;
@@ -102,6 +103,7 @@ p{
     position: relative;
     margin-right: 3%;
 }
+
 #reviews li p{
     width:80%;
     height:10em;
@@ -162,11 +164,11 @@ input[type='text']{
 h2{
     font-size: 1.8em;
     color:white;
-    text-align: justify;
+    text-align: left;
     padding-top: 1%;
     padding-bottom:-1%;
     height: 1.5em;
-    background: black;
+    /*background: black;*/
     width: 100%;
     margin-bottom: 2%;
     margin-left: 35%;
@@ -214,16 +216,14 @@ body{
 
 
 /*********************************************************************/
-
 #searchMoviesButton{
      max-width:10em;
 }
 #viewTrailer2, #viewTrailer, #backButton, #backToReview{
     width: 10em;
 }
-
 #searchMoviesButton, #backButton, #viewTrailer2, #viewTrailer, #backToReview{
-    max-width:10em;
+   
     height:3em;
     border-radius:0.2em;
     display: inline-block;
