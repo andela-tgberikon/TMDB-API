@@ -57,12 +57,21 @@ p{
     box-shadow: 0 0 0.2em 0.1em #ffa853; 
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 iframe{
 	
 }
 =======
 
 >>>>>>> Cleaned up css some more, removed the header, changed the background to high def, removed the scroll from the page, and made adjustment to hide review on next page click
+=======
+
+=======
+iframe{
+	
+}
+>>>>>>> master
+>>>>>>> cfb0c7a8acf0d7b26c5c5aacd4773d606e99b098
 #trailers{
     width: 50%;
     height: 80%;
